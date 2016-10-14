@@ -1,0 +1,90 @@
+#master { width: 960px; margin: 0px auto; }
+
+#header { height: 100px; background: #ccc; border: 1px solid #000; margin-bottom: 5px; }
+
+#menu { width: 150px; height: 1131px; background: #ccc; border: 1px solid #000; float: left; }
+
+#content { width: 781px; background: #ccc; border: 1px solid #000; float: left; margin-left: 5px; margin-bottom: 5px; padding-left: 10px; padding-right: 10px; }
+
+#footer { height: 50px; clear: both; background: #ccc; border: 1px solid #000; }
+
+
+
+
+body { font-size: 10pt; color: #383838; background: #ffffcc; background-image: url(http://fireteanu.com/wp-content/uploads/rainbow-in-the-clouds-15621.jpg);
+  
+  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+	background-size:cover;}
+
+
+@import url(layout.css);
+
+.Bold { font-weight: bold; }
+
+.Emphasis { font-style: italic; }
+
+a:link { color: #3366ff; text-decoration: none; }
+
+a:visited {  }
+
+a:hover { text-decoration: underline; }
+
+a:active {  }
+
+.button { background: #ff9966; padding: 5px 10px; color: #fff; text-decoration: none; font-weight: bold; border-bottom: 2px solid #c07c00; border-right: 2px solid #c07c00; cursor: pointer; margin-left: 5px; font-size: 12pt; 
+
+border-radius: 10px;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+
+}
+
+
+/* Body Content Formatting */
+
+p { text-align: justify; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+h1 { font-size: 200%; clear: both; font-variant: small-caps; }
+
+h2 { font-size: 150%; }
+
+h1, h2 { color: #ff9966; }
+
+.Deleted { text-decoration: line-through; color: red; }
+
+.Highlight { background-color: yellow; font-style: italic; font-weight: bold; font-size: 14pt; }
+
+.BlueType { font-family: Monaco; font-size: 12pt; color: #3366ff; }
+
+li.first { color: red; font-weight: bold; }
+
+#attractions { font-size: 13pt; font-family: Georgia; font-style: italic; text-indent: 15px; }
+
+.ImageController { border: 2px black solid; margin-right: 30px; float: left; padding: 5px; background: #ccc; }
+
+#sidebar { width: 250px; padding: 10px; border: 2px solid #3300ff; background: #3366ff; float: right; margin-left: 20px; margin-right: 20px; }
+
+#sidebar h1 { font-size: 13pt; margin-top: 0; margin-bottom: -10px; }
+
+#sidebar p { font-size: 11pt; margin-bottom: 0; text-indent: 0; }
+
+#sidebar h1, #sidebar p { font-family: Trebuchet MT; color: #99ccff; }
+
+.alert { background: #fff6bf url(exclamation.png) center no-repeat; background-position: 15px 50%; text-align: left; border-top: 2px solid #ffd324; border-bottom: 2px solid #ffd324; padding: 25px 50px; margin-left: 100px; margin-right: 100px; text-indent: 0; }
+
+ul { margin-left: -10px; margin-top: 10px; padding: 0; float: left; }
+
+li { display: inline; list-style-type: none; margin-right: -4px; background: #f90; font-family: Verdana; font-size: 15pt; padding: 0px 10px; border-right: 1px solid #666; }
+
+li:hover { background: #fff; color: #000; }
+
+
+
+
+
+.RedBoldText { color: red; font-weight: bold; text-decoration: underline; }
+
+
